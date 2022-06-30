@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.container {
+    max-width: 100vw;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.logo {
+    color: aliceblue;
+    margin: 10px;
+    padding: 10px;
+}
+
+.navbar {
+    display: flex;
+    height: 67PX;
+
+}
+
+.navbar li {
+    list-style: none;
+    margin: 0 12px;
+    color: aliceblue;
+} 
+.navbar li:hover{
+    color: gray;
+}
+
+.section1 {
+    display: flex;
+    background: url(watch4.webp) no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    color: aliceblue;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.max-width {
+    margin: 100px 0 auto 40px;
+    height: auto;
+    width: 300px;
+}
+
+.text1 {
+    font-size: x-large;
+    font-weight: 900;
+}
+
+.btn {
+    color: aliceblue;
+    background-color: rgb(85, 5, 78);
+    border-radius: 100px;
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+}
+.btn :hover{
+    background-color: white;
+}
+
+
+.section2 {
+    display: flex;
+    background: url(watch1.webp) no-repeat center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.heading {
+
+    color:crimson;
+    height: 40px;
+    width: 300px;
+    border-radius: 5px;
+    font-size: x-large;
+    font-weight: 700;
+    margin: 20px;
+}
+
+img {
+    border-radius: 50%;
+    width: 50px;
+}
+
+.f1 {
+    color:crimson;
+    font-weight: 700;
+    margin-left: 65px;
+}
+
+span.a {
+    margin: 65px;
+}
+
+.f2 {
+    color:crimson;
+    font-weight: 700;
+    margin-left: 65px;
+}
+
+span.b {
+    margin-left: 65px;
+
+}
+
+.f3 {
+    color: crimson;
+    font-weight: 700;
+    margin-left: 65px;
+}
+
+span.c {
+    margin-left: 65px;
+
+}
+
+.f4 {
+    color: crimson;
+    font-weight: 700;
+    margin-left: 65px;
+}
+
+span.d {
+    margin-left: 65px;
+
+}
+
+.footer {
+    height: 20px;
+    text-align: center;
+    color: aliceblue;
+    background-color: rgb(85, 5, 78);
+}
