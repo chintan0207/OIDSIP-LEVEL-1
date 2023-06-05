@@ -1,2 +1,2 @@
 # OIDSIP-LEVEL-1
-web development basic project
+web development basic projects
